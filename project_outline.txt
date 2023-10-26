@@ -1,1 +1,10 @@
-This will be my project outline
+Project Outline
+
+For this project I would like to use bull kelp canopy area, SST, and chlorophyll data derived from satellites. I am interested in investigating more about how wintertime ocean conditions can predict summer bull kelp canopy area. I would like to use SST and chlorophyll as the predictors and bull kelp canopy as my response. 
+
+I was initially hoping to use canopy data from my thesis data set, but for this project I think it would be easier to use an existing data set. There is great historical kelp canopy data from satellites at this source: https://kelpwatch.org/map. Their data dates back to 1984 and runs through 2022 completely. I plan to focus on kelp in Northern California on the Sonoma and Mendocino coastlines. The data is broken up into quarters so I can focus on the summertime kelp canopy extent. 
+
+For SST and chlorophyll data I think I will use whatever data sets we used in class (can't remember exactly which data sets they were, and perhaps you have a better recommendation to use). Because I am interested in winter I was planning on only using data during this season and averaging values. This will give me an average SST and chlorophyll value for each winter that I can compare to the summertime kelp canopy area. I am also considering using SST anomalies (and possibly chlorophyll anomalies) instead.
+
+My first figure will be a map of my study area around the Sonoma and Mendocino coastlines. I am not the best at stats, so I need to figure out which tests to run to see if SST and chlorophyll are good predictors of summer canopy area. The paper I am basing this project off of (García-Reyes et al 2022) used a linear regression so perhaps this is the same test I should do. They had a figure showing the linear regression between the winter MOCI (Multivariate Ocean Climate Indicator) and kelp canopy area so I could do something similar with SST and chlorophyll instead of MOCI. I also think it would be cool to include a heatmap somehow of kelp canopy persistence, but I am not sure how I could incorporate SST and chlorophyll into this. 
+
